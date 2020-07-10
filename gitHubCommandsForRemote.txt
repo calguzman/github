@@ -6,3 +6,22 @@ git push: Luego de hacer git add y git commit debemos ejecutar este comando para
 git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
 git merge: También usamos el comando git fetch con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
 git pull: Básicamente, git fetch y git merge al mismo tiempo.
+
+
+git remote add origin git@github.com:calguzman/github.git // Agregar un repositorio Remoto
+git remote // Muestra los repositorios remotos asociados a el repo local. 
+
+Conectando Git Remote. 
+
+…or create a new repository on the command line
+echo "# github" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin <URL REMOTE>
+git push -u origin master
+                
+
+…or push an existing repository from the command line
+  git remote add origin <URL REMOTE REPO>
+  git push -u origin master
