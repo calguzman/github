@@ -11,8 +11,13 @@ git add . // Agrega todos los directorios al area de staging
 git status // muestra el estado actual de los archivos tracked o untracked
 git log  // Muestra el log de cambios de commites
 git rm --cache fileName // Saca del area de staging un archivo. 
-git commite // Agrega un Comite sin descripción 
+git commit // Agrega un Comite sin descripción 
 git commit -m "Mensaje descriptivo del commit" // Agrega un commite con descripción de lo que se actualiza. 
+
+
+// Clase # 11 . Analizando cambio de archivos. 
+
+git show fileName // Muestra cambios efectuados a un archivo. 
 
 
 
