@@ -19,6 +19,4 @@ git commit -m "Mensaje descriptivo del commit" // Agrega un commite con descripc
 
 git show fileName // Muestra cambios efectuados a un archivo. 
 
-
-
-
+// Recuerda que un commit sin Descripción No es una Buena Practica. 
