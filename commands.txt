@@ -23,5 +23,5 @@ git diff <OLD_HEAD_VERSION> <NEW_HEAD_VERSION> // Permite comparar dos versiones
 git reset <HEAD> --hard // Permite volver a una versión anterior, dejando el espacio de trabajo con los datos del head solicitado 
 git reset <HEAD> --soft // Permite volver a una versión anterior, manteniendo en staging los datos para el proximo commit!.
 git mv  // Mover o renombrar archivos o directorios con Tracking
-
+git log --stat // Se ven los cambios especificos que se hicieron 
 
