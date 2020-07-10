@@ -8,15 +8,20 @@ git config --global user.name "Tu Nombre"
 git init // Inicializa un repositorio.
 git add fileName // Agrega un archivo a el area  de staging 
 git add . // Agrega todos los directorios al area de staging
-git status // muestra el estado actual de los archivos tracked o untracked
-git log  // Muestra el log de cambios de commites
+git status // Muestra el estado actual de los archivos tracked o untracked
+git log  // Muestra el log de los commit.
 git rm --cache fileName // Saca del area de staging un archivo. 
 git commit // Agrega un Comite sin descripción 
 git commit -m "Mensaje descriptivo del commit" // Agrega un commite con descripción de lo que se actualiza. 
 
 
+
 // Clase # 11 . Analizando cambio de archivos. 
 
 git show fileName // Muestra cambios efectuados a un archivo. 
+git diff <OLD_HEAD_VERSION> <NEW_HEAD_VERSION> // Permite comparar dos versiones de un archivo. El orden importa. 
+git reset <HEAD> --hard // Permite volver a una versión anterior, dejando el espacio de trabajo con los datos del head solicitado 
+git reset <HEAD> --soft // Permite volver a una versión anterior, manteniendo en staging los datos para el proximo commit!.
+git mv  // Mover o renombrar archivos o directorios con Tracking
 
-// Recuerda que un commit sin Descripción No es una Buena Practica. 
+
