@@ -1,11 +1,13 @@
 body{
-  
+  font-size: Arial;
+  font-size: 30px;
 }
 .container{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 #header{
 background-color:#7e7e7e;
